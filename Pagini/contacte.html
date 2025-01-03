@@ -7,96 +7,62 @@
     <link rel="stylesheet" href="../CSS/contacte.css">
     <link rel="icon" href="../Imagini/Mimilux_icon-removebg-transformed_processed.png">
     <script src="https://kit.fontawesome.com/db27cc50b0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     
-    <header>
-        <div>
-            <a href="../index.html"><img src="../Imagini/Mimilux_icon-removebg-transformed_processed.png"></a>
+  <header>
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../Imagini/Mimilux_icon-removebg-transformed_processed.png" alt="Logo">
+        </a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="../Pagini/despre.html">Despre noi</a></li>
+            <li><a href="../Pagini/produse.html">Produse</a></li>
+            <li><a href="../Pagini/contacte.html">Contacte</a></li>
+        </ul>
+    </nav>
+    <div class="cart-icon" onclick="window.location.href='../Pagini/checkout.html'">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cart-count">0</span>
+    </div>
+</header>
+
+
+
+  <main>
+    <section class="myi3">
+        <h1>Contactează-ne</h1>
+        <p>Ne-ar plăcea să vă ajutăm să găsiți bijuteria perfectă sau să vă ajutăm cu orice întrebări ați putea avea. Fie că este vorba despre colecțiile noastre, modelele personalizate sau serviciile noastre, echipa noastră este aici pentru tine.</p>
+    </section>
+
+    <section class="contact-info">
+        <div class="info-box">
+            <i class="fas fa-phone-alt"></i>
+            <h2>Telefonul</h2>
+            <p>+373 60 376 835</p>
         </div>
-        <nav>
-            <ul>
-                <li><a href="../Pagini/despre.html">Despre noi</a></li>
-                <li><a href="../Pagini/produse.html">Produse</a></li>
-                <li><a href="../Pagini/contacte.html">Contacte</a></li>
-            </ul>
-        </nav>
-    </header>
+        <div class="info-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <h2>Adresa</h2>
+            <p>Centru, Gemeni et.2 <br> Ștefan cel mare și sfînt 136, Chișinău, Moldova</p>
+        </div>
+        <div class="info-box">
+            <i class="fas fa-clock"></i>
+            <h2>Orarul</h2>
+            <p>Luni - Sâmbătă: 11:00 - 19:00 <br> Duminică: Zi liberă</p>
+        </div>
+    </section>
 
-
- <div class="contact-container">
-    <div class="card">
-      <h2>Informații de contact</h2>
-      <div class="card-content">
-        <p><strong>Adresa:</strong> Centru, Gemeni et.2 <br> Ștefan cel mare și sfînt 136, Chișinău, Moldova</p>
-        <p><strong>Email:</strong> <a href="mailto:info@mimilux.md">info@mimilux.md</a></p>
-        <p><strong>Nr. de telefon:</strong> <a href="tel:+373 60 376 835">+373 60 376 835</a></p>
-        <p>Contactați-ne online sau vizitați adresa de mai  sus.</p>
-      </div>
-    </div>
-
-    <div class="card schedule">
-      <h2>Orarul</h2>
-      <div class="card-content">
-        <table>
-          <thead>
-            <tr>
-              <th>Ziua</th>
-              <th>Deschis</th>
-              <th>Închis</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Luni</td>
-              <td>11:00</td>
-              <td>19:00</td>
-            </tr>
-            <tr>
-              <td>Marți</td>
-              <td>11:00</td>
-              <td>19:00</td>
-            </tr>
-            <tr>
-              <td>Miercuri</td>
-              <td>11:00</td>
-              <td>19:00</td>
-            </tr>
-            <tr>
-              <td>Joi</td>
-              <td>11:00</td>
-              <td>19:00</td>
-            </tr>
-            <tr>
-              <td>Vineri</td>
-              <td>11:00</td>
-              <td>19:00</td>
-            </tr>
-            <tr>
-              <td>Sâmbătă</td>
-              <td>11:00</td>
-              <td>19:00</td>
-            </tr>
-            <tr>
-              <td>Duminică</td>
-              <td>11:00</td>
-              <td>19:00</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="card map-container">
-      <h2>Locația</h2>
-      <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10879.37360586011!2d28.8347191!3d47.0236788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97da76eb0abe1%3A0xda36919f7be38f99!2sMIMILUX%20-%20Bijuterii%20Personalizate!5e0!3m2!1sro!2sus!4v1735393638489!5m2!1sro!2sus"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-    </div>
-  </div>
+    <section class="map-section">
+        <h2>Găsiți-ne aici!</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16715.356143349316!2d28.83223!3d47.0247905!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97da76eb0abe1%3A0xda36919f7be38f99!2sMIMILUX%20-%20Bijuterii%20Personalizate!5e1!3m2!1sro!2s!4v1735836587425!5m2!1sro!2s"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+</main>
 
 <footer class="footer">
     <div class="footer-container">
@@ -125,9 +91,11 @@
   
       
       <div class="footer-copyright">
-        <p>&copy; Disclaimer: Tekwill Junior Ambasador</p>
+        <p>&copy; CopyRight 2025. Acest website a fost realizat în cadrul competiției ”Tekwill Junior Ambassadors” organizată de proiectul ”Tekwill în Fiecare Școală” și nu reflectă neapărat opinia proiectului.</p>
       </div>
     </div>
   </footer>
+
+  <script src="../JS/barbati.js"></script>
 </body>
 </html>
