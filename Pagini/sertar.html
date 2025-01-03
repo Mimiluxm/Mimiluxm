@@ -14,8 +14,10 @@
 <body>
 
     <header>
-        <div>
-            <a href="../index.html"><img src="../Imagini/Mimilux_icon-removebg-transformed_processed.png"></a>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../Imagini/Mimilux_icon-removebg-transformed_processed.png" alt="Logo">
+            </a>
         </div>
         <nav>
             <ul>
@@ -24,6 +26,10 @@
                 <li><a href="../Pagini/contacte.html">Contacte</a></li>
             </ul>
         </nav>
+        <div class="cart-icon" onclick="window.location.href='../Pagini/checkout.html'">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-count">0</span>
+        </div>
     </header>
 
     <br>
@@ -31,9 +37,7 @@
     
 <a href="../Pagini/femei.html"><button class="byun"><i class="fa-solid fa-arrow-left"></i>   Colecția dame</button></a>
 
-<div class="cart-icon" onclick="window.location.href='../Pagini/checkout.html'">
-    <i class="fa-solid fa-cart-shopping"></i> <span class="cart-count">0</span>
-       </div>
+<button id="scrollToTopBtn" title="Mergi sus">↑</button>
   
   <div class="container">
       <div class="products">
@@ -52,15 +56,17 @@
             <button onclick="addToCart('Colier initiala cu pietre B', 1000)">Adaugă în coș</button>
         </div>
           
-      </div>
-      <div class="products">
-        
         <div class="product">
             <img src="../Imagini/Colier initiala cu pietre B - COL001G.png" alt="Colier initiala cu pietre B">
             <h3>Colier initiala cu pietre C</h3>
             <p>1000 MDL</p>
             <button onclick="addToCart('Colier initiala cu pietre C', 1000)">Adaugă în coș</button>
         </div>
+
+      </div>
+      <div class="products">
+        
+        
        
     </div>
     <div class="products">
@@ -235,7 +241,7 @@
               <i class="fa-solid fa-phone"></i> +373 60 376 835
           </div>
           <div class="footer-copyright">
-              <p>&copy; Disclaimer: Tekwill Junior Ambasador</p>
+              <p>&copy; CopyRight 2025. Acest website a fost realizat în cadrul competiției ”Tekwill Junior Ambassadors” organizată de proiectul ”Tekwill în Fiecare Școală” și nu reflectă neapărat opinia proiectului.</p>
           </div>
       </div>
   </footer>
@@ -243,4 +249,4 @@
   
 <script src="../JS/barbati.js"></script>
 </body>
-</html>
+                  </html>
