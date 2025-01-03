@@ -82,3 +82,33 @@ function submitOrder() {
 }
 
 updateCart();
+
+
+// Pentru butonul de scroll pana sus
+const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+const footer = document.querySelector("footer");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+        scrollToTopBtn.classList.add("show");
+    } else {
+        scrollToTopBtn.classList.remove("show");
+    }
+
+    const footerTop = footer.getBoundingClientRect().top;
+    const buttonHeight = scrollToTopBtn.offsetHeight;
+    const windowHeight = window.innerHeight;
+
+    if (footerTop < windowHeight - buttonHeight) {
+        scrollToTopBtn.style.bottom = `${windowHeight - footerTop + 20}px`;
+    } else {
+        scrollToTopBtn.style.bottom = "20px"; 
+    }
+});
+
+scrollToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+    });
+});
