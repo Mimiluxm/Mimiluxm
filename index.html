@@ -10,9 +10,11 @@
 </head>
 <body>
 
-<header>
-    <div>
-        <a href="./index.html"><img src="./Imagini/Mimilux_icon-removebg-transformed_processed.png" alt="Website Icon"></a>
+  <header>
+    <div class="logo">
+        <a href="./index.html">
+            <img src="./Imagini/Mimilux_icon-removebg-transformed_processed.png" alt="Logo">
+        </a>
     </div>
     <nav>
         <ul>
@@ -21,7 +23,10 @@
             <li><a href="./Pagini/contacte.html">Contacte</a></li>
         </ul>
     </nav>
-    <button id="mobileToggleBtn"><i class="fa-solid fa-bars fa-2xl"></i></button>
+    <div class="cart-icon" onclick="window.location.href='./Pagini/checkout.html'">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cart-count">0</span>
+    </div>
 </header>
 
 <nav id="mobileMenu">
@@ -58,6 +63,51 @@
         <div class="product"><img src="./Imagini/Colier initiala cu pietre B - COL001G.png" alt="Colier initiala cu pietre A"><p>Colier inițial cu piatră A <br><br><br> <a href="./Pagini/sertar.html"><button class="bfs">Cumpără acum</button></a></p></div>
     </div>
 </div>
+<br>
+
+<h1 class="recenz">Recenziile clienților</h1>
+<hr class="hrrec">
+
+<div class="reviews-container">
+  <div class="review">
+      <img src="./Imagini/ariana cojocaru.png">
+      <h3>Cojocari Ariana</h3>
+      <p>Recomand cu încredere bijuteriile Mimilux soțul poartă o brățara deja de un an in toată această perioadă el nu a scos-o nici la baia nici la muncă și brățara e ca nouă</p>
+      <a href="https://maps.app.goo.gl/BKiqDM5adjRfqKPt9" target="_blank">Vezi originalul</a>
+      <br>
+      <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+  </div>
+
+  <div class="review">
+      <img src="./Imagini/natalia dobrea.png">
+      <h3>Natalia Dobrea</h3>
+      <p>Mimilux, Vă mulțumim enorm de mult pentru brățară  minunată , care lam procurat cu drag din magazinul dumneavoastră, sunteți foarte amabili. Vă recomand cu cea mai mare încredere 🌸 …</p>
+      <a href="https://maps.app.goo.gl/yBD7vN1721wghH1Q9" target="_blank">Vezi originalul</a>
+      <br>
+      <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+  </div>
+
+  <div class="review">
+      <img src="./Imagini/Xenia Dascal-Vrabii.png">
+      <h3>Xenia Dascal-Vrabii</h3>
+      <p>Dacă ești în căutarea unei bijuterii personalizate sau a unui cadou pentru persoanele dragi, cu o împachetare specială, atunci, cu siguranță vei găsi ceva potrivit la MIMILUX.
+<br>
+        Aici găsiți nu doar bijuterii estetice, placate cu aur de 18K, dar beneficiați de gravare gratuită, deservire la nivel înalt și livrare la domiciliu.
+        Recomand cu încredere MIMILUX! 🌸</p>
+      <a href="https://maps.app.goo.gl/ZHDMMS8J8nAyVacA7" target="_blank">Vezi originalul</a>
+      <br>
+      <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+  </div>
+
+  <div class="review">
+      <img src="./Imagini/bulgac valeria.png">
+      <h3>Bulgac Valeria</h3>
+      <p>Am procurat de mai multe ori bijuterii de la Mimilux🥰. Bijuteriile sunt extrem de frumoase, corespund exact pozelor și descrierii plus că s-au livrat foarte rapid. Grija pentru ambalare și mesajul personalizat a fost o surpriza extrem de plăcută. Voi mai reveni cu noi comenzi. Vă recomand și voua ❤️ …</p>
+      <a href="https://maps.app.goo.gl/6qLn5DVEs3cjQgQo8" target="_blank">Vezi originalul</a>
+      <br>
+      <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+  </div>
+</div>
 
 
 <footer class="footer">
@@ -87,11 +137,12 @@
   
       
       <div class="footer-copyright">
-        <p>© CopyRight 2025. Acest website a fost realizat în cadrul competiției ”Tekwill Junior Ambassadors” organizată de proiectul ”Tekwill în Fiecare Școală” și nu reflectă neapărat opinia proiectului.</p>
+        <p>&copy; CopyRight 2025. Acest website a fost realizat în cadrul competiției ”Tekwill Junior Ambassadors” organizată de proiectul ”Tekwill în Fiecare Școală” și nu reflectă neapărat opinia proiectului.</p>
       </div>
     </div>
   </footer>
 
   <script src="./JS/slideshow.js"></script>
+  <script src="./JS/barbati.js"></script>
 </body>
 </html>
