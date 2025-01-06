@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colecția bărbați</title>
+    <link rel="stylesheet" href="../CSS/barbati.css">
+    <link rel="icon" href="../Imagini/Mimilux_icon-removebg-transformed_processed.png">
+    <script src="https://kit.fontawesome.com/db27cc50b0.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jim+Nightshade&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../Imagini/Mimilux_icon-removebg-transformed_processed.png" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../Pagini/despre.html">Despre noi</a></li>
+                <li><a href="../Pagini/produse.html">Produse</a></li>
+                <li><a href="../Pagini/contacte.html">Contacte</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon" onclick="window.location.href='../Pagini/checkout.html'">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </header>
+
+    <br>
+    <br>
+    
+<a href="../Pagini/femei.html"><button class="byun">Colecția dame   <i class="fa-solid fa-arrow-right"></i></button></a>
+
+<button id="scrollToTopBtn" title="Mergi sus">↑</button>
+
+<div class="container">
+    <div class="products">
+
+      <div class="product">
+        <img src="../Imagini/Brățara Casadei - BR008S.png" alt="Brățara Casadei" class="product-image">
+        <h3>Brățara Casadei</h3>
+        <p>500 MDL</p>
+        <button onclick="addToCart('Brățara Casadei', 500)">Adaugă în coș</button>
+      </div>
+  
+      <div class="product">
+        <img src="../Imagini/Brățară Elita - 21 CM - BR002S.png" alt="Brățară Elita - 21 CM - BR002S" class="product-image">
+        <h3>Brățară Elita - 21 CM - BR002S</h3>
+        <p>1800 MDL</p>
+        <button onclick="addToCart('Brățară Elita - 21 CM - BR002S', 1800)">Adaugă în coș</button>
+      </div>
+  
+      <div class="product">
+        <img src="../Imagini/Bratara Rolex - BR001G+S.jpeg" alt="Brățara Rolex" class="product-image">
+        <h3>Brățara Rolex - BR001G+S</h3>
+        <p>1000 MDL</p>
+        <button onclick="addToCart('Brățara Rolex - BR001G+S', 1000)">Adaugă în coș</button>
+      </div>
+  
+      <div class="product">
+        <img src="../Imagini/Brățară Rebelity - BR017G.png" alt="Brățară Rebelity - BR017G" class="product-image">
+        <h3>Brățară Rebelity - BR017G</h3>
+        <p>400 MDL</p>
+        <button onclick="addToCart('Brățară Rebelity - BR017G', 400)">Adaugă în coș</button>
+      </div>
+  
+      <div class="product">
+        <img src="../Imagini/Brățară Împletită - BR003B.png" alt="Brățară Împletită" class="product-image">
+        <h3>Brățară Împletită</h3>
+        <p>800 MDL</p>
+        <button onclick="addToCart('Brățară Împletită', 800)">Adaugă în coș</button>
+      </div>
+
+      <div class="product">
+        <img src="../Imagini/Brățara Vinci.png" alt="Brățara Vinci" class="product-image">
+        <h3>Brățara Vinci</h3>
+        <p>1050 MDL</p>
+        <button onclick="addToCart('Brățara Vinci', 1050)">Adaugă în coș</button>
+      </div>
+
+      <div class="product">
+        <img src="../Imagini/Bratara bara dubla -BR105G.png" alt="Bratara bara dubla -BR105G" class="product-image">
+        <h3>Brățară bară dublă</h3>
+        <p>830 MDL</p>
+        <button onclick="addToCart('Brățară bară dublă', 830)">Adaugă în coș</button>
+      </div>
+
+      <div class="product">
+        <img src="../Imagini/Ceas Paris mic W018FG.png" alt="Ceas Paris mic" class="product-image">
+        <h3>Ceas Paris mic</h3>
+        <p>1760 MDL</p>
+        <button onclick="addToCart('Ceas Paris mic', 1760)">Adaugă în coș</button>
+      </div>
+  
+      <div class="product">
+        <img src="../Imagini/Ceas LIBERIAL W022MG+B.png" alt="Ceas LIBERIAL W022MG+B" class="product-image">
+        <h3>Ceas LIBERIAL W022MG+B</h3>
+        <p>2310 MDL</p>
+        <button onclick="addToCart('Ceas LIBERIAL W022MG+B', 2310)">Adaugă în coș</button>
+      </div>
+  
+      <div class="product">
+        <img src="../Imagini/ceas NEGURO.png" alt="CEAS NEGURO" id="neguro" class="product-image">
+        <h3>CEAS NEGURO</h3>
+        <p>2640 MDL</p>
+        <button onclick="addToCart('CEAS NEGURO', 2640)">Adaugă în coș</button>
+      </div>
+  
+      <div class="product">
+        <img src="../Imagini/Ceas POSEIDON W006MG.jpeg" alt="CEAS POSEIDON" class="product-image">
+        <h3>CEAS POSEIDON</h3>
+        <p>2860 MDL</p>
+        <button onclick="addToCart('CEAS POSEIDON', 2860)">Adaugă în coș</button>
+      </div>
+  
+      <div class="product">
+        <img src="../Imagini/Ceas Silver for Man W003MS+B.png" alt="Ceas Silver for Man" class="product-image">
+        <h3>Ceas Silver for Man W003MS+B</h3>
+        <p>2860 MDL</p>
+        <button onclick="addToCart('Ceas Silver for Man W003MS+B', 2860)">Adaugă în coș</button>
+      </div>
+  
+      <div class="product">
+        <img src="../Imagini/Ceas VICTORIA W004MG.png" alt="Ceas VICTORIA" class="product-image">
+        <h3>Ceas VICTORIA</h3>
+        <p>1980 MDL</p>
+        <button onclick="addToCart('Ceas VICTORIA', 1980)">Adaugă în coș</button>
+      </div>
+  
+      <div class="product">
+        <img src="../Imagini/Ceas Jupiter W005MG.png" alt="Ceas Jupiter" class="product-image">
+        <h3>Ceas Jupiter</h3>
+        <p>3080 MDL</p>
+        <button onclick="addToCart('Ceas Jupiter', 3080)">Adaugă în coș</button>
+      </div>
+  
+      <div class="product">
+        <img src="../Imagini/Ceas Cristiano W021MS.png" alt="Ceas Cristiano" class="product-image">
+        <h3>Ceas Cristiano</h3>
+        <p>2250 MDL</p>
+        <button onclick="addToCart('Ceas Cristiano', 2250)">Adaugă în coș</button>
+      </div>
+
+      <div class="product">
+        <img src="../Imagini/Ceas LONDON W027FS.png" alt="Ceas LONDON" class="product-image">
+        <h3>Ceas LONDON</h3>
+        <p>1760 MDL</p>
+        <button onclick="addToCart('Ceas LONDON', 1760)">Adaugă în coș</button>
+      </div>
+
+      <div class="product">
+        <img src="../Imagini/Ceas winner milion MECANIC W032B+S.jpeg" alt="Ceas winner milion MECANIC" class="product-image">
+        <h3>Ceas winner milion MECANIC</h3>
+        <p>4550 MDL</p>
+        <button onclick="addToCart('Ceas winner milion MECANIC', 4550)">Adaugă în coș</button>
+      </div>
+
+      <div class="product">
+        <img src="../Imagini/Ceas winner Love MECANIC W033S+G.jpeg" alt="Ceas winner Love MECANIC" class="product-image">
+        <h3>Ceas winner milion MECANIC</h3>
+        <p>1500 MDL</p>
+        <button onclick="addToCart('Ceas winner Love MECANIC', 1500)">Adaugă în coș</button>
+      </div>
+
+      <div class="product">
+        <img src="../Imagini/Ceas winner Love MECANIC W033S+G+B.jpeg" alt="Ceas winner Love MECANIC W033S+G+B" class="product-image">
+        <h3>Ceas winner Love MECANIC W033S+G+B</h3>
+        <p>1500 MDL</p>
+        <button onclick="addToCart('Ceas winner Love MECANIC W033S+G+B', 1500)">Adaugă în coș</button>
+      </div>
+
+      <div class="product">
+        <img src="../Imagini/Ceas Forsinning COSMOS MECANIC W035B+G.jpeg" alt="Ceas Forsinning COSMOS MECANIC" class="product-image">
+        <h3>Ceas Forsinning COSMOS MECANIC</h3>
+        <p>4450 MDL</p>
+        <button onclick="addToCart('Ceas Forsinning COSMOS MECANIC', 4450)">Adaugă în coș</button>
+      </div>
+
+      <div class="product">
+        <img src="../Imagini/Ceas Forsinning COSMOS MECANIC W035B+S.jpeg" alt="Ceas Forsinning COSMOS MECANIC W035B+S" class="product-image">
+        <h3>Ceas Forsinning COSMOS MECANIC W035B+S</h3>
+        <p>4450 MDL</p>
+        <button onclick="addToCart('Ceas Forsinning COSMOS MECANIC W035B+S', 4450)">Adaugă în coș</button>
+      </div>
+
+      <div class="product">
+        <img src="../Imagini/Ceas BONJOUR W029FG+S.png" alt="Ceas BONJOUR W029FG+S" class="product-image">
+        <h3>Ceas BONJOUR W029FG+S</h3>
+        <p>1980 MDL</p>
+        <button onclick="addToCart('Ceas BONJOUR W029FG+S', 1980)">Adaugă în coș</button>
+      </div>
+
+      <div class="product">
+        <img src="../Imagini/butoniere.png" alt="Butoniere" class="product-image">
+        <h3>Butoniere</h3>
+        <p>5500 MDL</p>
+        <button onclick="addToCart('Butoniere', 550)">Adaugă în coș</button>
+      </div>
+  
+      <div class="product">
+        <img src="../Imagini/tag-barbat.png" alt="TAG" class="product-image">
+        <h3>TAG</h3>
+        <p>800 MDL</p>
+        <button onclick="addToCart('TAG', 800)">Adaugă în coș</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-image" class="lightbox-image" src="" alt="Enlarged Image">
+</div>
+  
+  <div id="notification" class="notification">Produs adăugat în coș!</div>
+
+<div class="cart" style="display: none;">
+    <h2>Coșul dvs.</h2>
+    <div class="cart-items"></div>
+    <div class="total-price">Total: 0 MDL</div>
+    <button onclick="showCheckoutForm()">Finalizează comanda</button>
+</div>
+
+<div class="checkout-form">
+    <h2>Înregistrare</h2>
+    <input type="text" id="first-name" placeholder="Numele" required>
+    <input type="text" id="last-name" placeholder="Familia" required>
+    <input type="tel" id="phone" placeholder="Numărul de telefon" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="text" id="address" placeholder="Adresa de livrare" required>
+    <button onclick="submitOrder()">Depuneți comanda</button>
+</div>
+  
+  <br>
+  <br>
+ 
+  <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-logo">
+            <a href="../index.html"><img src="../Imagini/Mimilux_icon-removebg-transformed_processed.png" width="90px"></a>
+          </div>
+          <div class="footer-nav">
+              <a href="../Pagini/despre.html">Despre noi</a>
+              <a href="../Pagini/produse.html">Produse</a>
+              <a href="../Pagini/contacte.html">Contacte</a>
+          </div>
+          <div class="footer-social">
+              <a href="https://www.facebook.com/profile.php?id=100067907257693" target="_blank">
+                  <i class="fa-brands fa-facebook fa-2xl"></i>
+              </a>
+              <a href="https://www.instagram.com/mimilux.md/" target="_blank">
+                  <i class="fa-brands fa-instagram fa-2xl"></i>
+              </a>
+              <i class="fa-solid fa-phone"></i> +373 60 376 835
+          </div>
+          <div class="footer-copyright">
+              <p>&copy; CopyRight 2025. Acest website a fost realizat în cadrul competiției ”Tekwill Junior Ambassadors” organizată de proiectul ”Tekwill în Fiecare Școală” și nu reflectă neapărat opinia proiectului.</p>
+          </div>
+      </div>
+  </footer>
+  
+  
+<script src="../JS/barbati.js"></script>
+</body>
+</html>
