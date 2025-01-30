@@ -11,15 +11,15 @@ function toggleReadMore() {
     }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    function toggleAnswer(tile) {
-        tile.classList.toggle('open');
-    }
+document.addEventListener("DOMContentLoaded", function () {
+    const faqTiles = document.querySelectorAll(".faq-tile");
 
-    const faqTiles = document.querySelectorAll('.faq-tile');
-    faqTiles.forEach(tile => {
-        tile.addEventListener('click', () => toggleAnswer(tile));
+    faqTiles.forEach((tile) => {
+        tile.addEventListener("click", function () {
+            this.classList.toggle("open");
+        });
     });
+});
 
     const form = document.querySelector('.ult-fr form');
     const inputField = document.querySelector('#question-input');
@@ -41,4 +41,3 @@ document.addEventListener('DOMContentLoaded', () => {
             confirmationMessage.style.display = 'none';
         }, 3000);
     });
-});
