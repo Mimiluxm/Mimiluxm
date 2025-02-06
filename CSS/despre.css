@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0px;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.cont {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  color: black;
+}
+
+.content {
+  text-align: center;
+}
+
+.content p {
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  font-weight: bold;
+  line-height: 1.8;
+  margin: 1rem 0;
+  color: black;
+}
+
+.mai-mult {
+  margin-top: 1rem;
+  position: relative;
+}
+
+.ascuns {
+  display: none;
+  margin: 1rem 0;
+  font-weight: bold;
+  color: black;
+}
+
+.mai {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #ffbd49;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.faq-grid {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.faq-tile {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.question:hover {
+  background-color: #f9f9f9;
+}
+
+.question i {
+  font-size: 16px;
+  color: #333;
+  margin-left: auto;
+}
+
+.faq-tile.open .question {
+  color: #000;
+  background-color: #fff;
+}
+
+.rasp {
+  max-height: 0; 
+  overflow: hidden;
+  padding: 0 15px; 
+  font-size: 0.95rem;
+  color: #555;
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+
+.faq-tile.open .rasp {
+  max-height: 1000px; 
+  padding: 10px 15px;
+}
+
+
+.ult-fr {
+    margin-top: 3rem;
+}
+
+.ult-fr input {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.ult-fr button {
+    padding: 0.8rem 1.5rem;
+    background-color: #ffbd49;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10vw;
+}
+
+.confirmation {
+    display: none;
+    font-size: 1rem;
+    color: green;
+    margin-top: 1rem;
+}
+
+.imaginile {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.imaginile img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width:769px) {
+  .ult-fr button:hover {
+    background-color: rgba(255, 238, 0, 0.93);
+}
+.mai:hover {
+  background-color: rgba(255, 238, 0, 0.93);
+}
+.intr{
+  margin-left: 10vw;
+  font-size: 1.6vw;
+}
+}
+@media screen and (max-width:768px) {
+  .imaginile img {
+    width: 100%;
+    height: 100%;
+    margin-left:10vw;
+}
+  .imaginile{
+    display: grid;
+    width: 80%;
+    height: auto;
+  }
+  
+  .intr{
+    margin-left: 10vw;
+    font-size: 5vw;
+  }
+
+  .faq-grid{
+    width: 80%;
+  }
+}
