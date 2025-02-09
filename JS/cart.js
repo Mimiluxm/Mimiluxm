@@ -17,13 +17,7 @@ function afiseazaCos() {
   function updateFooter() {
     const footer = document.querySelector('.footer');
     const cos = JSON.parse(localStorage.getItem("cos")) || [];
-    const checkoutForm = document.getElementById("checkout-form");
-  
-    if (checkoutForm.style.display === "block") {
-      footer.style.position = "fixed";
-      footer.style.bottom = "0";
-      footer.style.width = "100%";
-    } else {
+   
       if (window.matchMedia("(min-width: 769px)").matches) {
         if (cos.length <= 4) {
           footer.style.position = "fixed";
