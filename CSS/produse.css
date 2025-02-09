@@ -52,6 +52,14 @@ a{
     font-size: 22px; 
 }
 
+@media screen and (min-width:2048px) {
+    .product-image{
+        display: flex;
+        width:32.8vw;
+        height: 65vh;
+    }
+}
+
 @media screen and (max-width:768px) {
     .products-page {
         display: grid;
