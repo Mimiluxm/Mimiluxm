@@ -192,9 +192,7 @@ a{
     margin-left:10vw;
 }
   .imaginile{
-    display: grid;
-    width: 80%;
-    height: auto;
+    display: none;
   }
   
   .intr{
