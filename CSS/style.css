@@ -297,9 +297,11 @@ margin-bottom: 10px;
       justify-content: center;
     }
   
-    .footer-social {
-      margin: 10px 0;
-      gap: 3vw;
+    .footer-logo{
+      margin-top: -15px;
+    }
+    .footer-nav {
+      display: none;
     }
 
     .footer-social a {
