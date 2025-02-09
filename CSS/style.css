@@ -287,6 +287,11 @@ margin-bottom: 10px;
     #check:checked ~ nav {
         left: 0;
     }
+
+      body:has(#check:checked) {
+      overflow: hidden;
+  }
+      
     .footer-container {
       flex-direction: column;
       align-items: center;
