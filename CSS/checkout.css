@@ -186,7 +186,10 @@ button.delete {
   }
 
   #checkout-form {
+    margin-top: -10vh;
+    margin-left: 0vw;
     width: 80vw !important;
+    position: relative;
   }
 
   .cos-item-row {
