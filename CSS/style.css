@@ -224,13 +224,16 @@ margin-bottom: 10px;
 
   @media (max-width: 768px) {
     nav{
+        overflow-x: hidden;
         display: none;
     }
     header .logo img{
+        overflow-x: hidden;
         height: 8vh;
         margin-left: 1vw;
     }
     header{
+        overflow-x: hidden;
         padding: 3px 20px;
     }
     .checkbtn {
@@ -289,7 +292,7 @@ margin-bottom: 10px;
       background: none;
       font-family: 'Times New Roman', Times, serif;
       position: relative;
-      top: -7px; 
+      top: -5px; 
       right: 38px; 
       color: black; 
       font-size: 21px; 
