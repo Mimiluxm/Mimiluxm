@@ -19,7 +19,7 @@ function afiseazaCos() {
     const cos = JSON.parse(localStorage.getItem("cos")) || [];
     
     if(window.matchMedia("(min-width: 769px)").matches) {
-        if (cos.length <= 4) {
+        if (cos.length <3) {
           footer.style.position = "fixed";
           footer.style.bottom = "0";
           footer.style.width = "100%";
