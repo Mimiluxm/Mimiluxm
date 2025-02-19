@@ -3,13 +3,47 @@ body {
     margin: 0;
     padding: 0;
     padding-bottom: 0px;
+    overflow-x: hidden !important;
 }
 
 a{
     text-decoration: none;
     color: white;
 }
- 
+
+.image-container {
+  display: flex;
+  width: 100vw;
+  height: 85vh; 
+  overflow: hidden;  
+}
+
+.image-container img {
+  width: 33.33%;  
+  height: 100%;
+  object-fit: cover; 
+}
+
+
+@media (max-width: 768px) {
+  .image-container img {
+      width: 100%;
+      height: 46vh !important;
+      height: auto; 
+  }
+
+  #fn1, #fn3 {
+      display: none;
+  }
+
+  #fn2 {
+      display: block;
+  }
+  .tx1{
+    margin-top: -40vh;
+  }
+}
+
 .product-slideshow {
     overflow: hidden;
     width: 100%;
@@ -165,10 +199,7 @@ a{
 
 
 @media screen and (max-width:768px) {
-  section img{
-    height: 30vh;
-    width: 100%;
-  }
+ 
   .reviews-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -177,10 +208,20 @@ a{
     margin: 50px auto;
     padding: 20px;
 }
-  .hrrec{
-    width: 60%;
-  }
+
   h1{
     font-size: 3vh;
   }
+
+  .hrrec{
+    width: 80%; 
+    justify-content: center;
+    border: none; 
+    height: 7px; 
+    background: linear-gradient(135deg, rgb(251, 255, 0), gold, rgb(255, 225, 0));
+}  
+
+#popcl{
+  margin-top: -10vh !important;
+}
 }
